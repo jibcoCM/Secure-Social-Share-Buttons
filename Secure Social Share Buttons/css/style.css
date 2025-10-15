@@ -1,0 +1,52 @@
+.custom-social-share {
+    margin: 2em 0;
+    padding: 1em;
+    border-top: 1px solid #ddd;
+}
+
+.custom-social-share h4 {
+    margin-bottom: 1em;
+}
+
+.share-buttons {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.share-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--icon-size, 32px);
+    height: var(--icon-size, 32px);
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2s;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+}
+
+.share-button:hover {
+    transform: scale(1.1);
+}
+
+.share-button .dashicons {
+    width: var(--icon-size, 32px);
+    height: var(--icon-size, 32px);
+    font-size: var(--icon-size, 32px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook { background-color: #1877f2; }
+.twitter { background-color: #000000; }
+.reddit { background-color: #ff4500; }
+.pinterest { background-color: #e60023; }
+.instagram { background-color: #c13584; }
+.twitch { background-color: #6441a5; }
+.email { background-color: #333333; }
+.copy-link { background-color: #666666; }
